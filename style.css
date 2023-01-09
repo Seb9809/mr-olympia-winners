@@ -1,0 +1,103 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/212/481/145/bodybuilding-bodybuilder-arnold-schwarzenegger-wallpaper-preview.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  height: 100vh;
+}
+h1 {
+  font-size: 70px;
+  font-weight: 600;
+  text-align: center;
+  background-image: radial-gradient(#ff0303, #5319f4);
+  color: transparent;
+  text-transform: capitalize;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.img-fluid {
+  width: 100%;
+  height: 400px;
+  border-radius: 25px;
+}
+
+#search-results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.results {
+  width: 600px; /* adjust this value to your desired width */
+  margin: 10px; /* adjust this value to add space between elements */
+  border: 1px solid black;
+  border-radius: 25px;
+  background-color: #fa4a4d;
+  padding-bottom: 0;
+}
+
+.header p {
+  font-size: 3rem;
+  margin: 0;
+  padding: 5px;
+  border-radius: 25px 25px 0 0;
+  background: red;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+
+.container {
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.select-nationality {
+  font-size: 2rem;
+  color: rgb(255, 0, 0);
+  margin: 2rem;
+}
+
+.search {
+  margin: 1rem;
+}
+button {
+  transition: background-color 0.5s; /* add a transition effect to the background color */
+}
+
+select {
+  font-size: 1.2em; /* increase the font size */
+  color: red;
+  padding: 10px; /* add some padding */
+  border-radius: 5px; /* add rounded corners */
+  background-color: #eee; /* change the background color */
+}
+
+@media (max-width: 768px) {
+  .results {
+    width: 100%; /* make the elements full width on small screens */
+  }
+}
