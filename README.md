@@ -1,6 +1,6 @@
 <h1 align="center">Mr. Olympia</h1>
 <p align="center">  
-:muscle:  All the Mr. Olimpia Winners in the category Open and Classic-Physique.
+:muscle:  All the Mr. Olympia Winners in the category Open and Classic-Physique.
 </p>
 </br>
 
