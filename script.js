@@ -1,4 +1,4 @@
-const apiUrl = "https://717bd822-dcbc-4776-9bc8-e50f33789e61.mock.pstmn.io/";
+const apiUrl = "https://29a1239e-0423-4d8c-a8db-d433f4f2e8ba.mock.pstmn.io";
 
 async function getArrays3() {
   try {
